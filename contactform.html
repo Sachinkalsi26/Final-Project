@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-bar"><a href="./index.html">Home</a></li>
+                <li class="nav-bar"><a href="./about.html">About</a></li>
+                <li class="nav-bar"><a href="./login.html">Login</a></li>
+                <li class="nav-bar"><a href="./contactform.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Form</h1>
+    </header>
+
+    <form action="./thankyou2.html" netlify method="post">
+
+        <fieldset>
+            <legend>User imformation</legend>
+            <p>
+                <label for="firstname">First name:</label>
+                <br>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last name:</label>
+                <br>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+            
+                <label for="phonenumber">Phone number:</label>
+                <br>
+                <input type="number" name="phonenumber" id="phonenumber">
+            </p>
+
+            <p> About:<br>
+                <select>
+                    <option>About:</option>
+                    <option>Return</option>
+                    <option>Product</option>
+                    <option>General query</option>
+                    <option>Complaint</option>
+                </select>
+            </p>
+
+            
+            <p>Message:<br>
+                <textarea></textarea>
+            </p>
+        </fieldset>
+        <p>
+            <button type="submit" value="submit">Submit</button>
+        </p>
+    </form>
+
+    <footer>
+        <div>
+            <nav class="main-footer">
+                <ul>
+                    <li class="nav-bar"><a href="https://github.com/"><img src="./Images/github.png"></a></li>
+                    <li class="nav-bar"><a href="https://www.facebook.com/"><img src="./Images/facebook.png"></a></li>
+                    <li class="nav-bar"><a href="https://www.linkedin.com/feed/"><img src="./Images/linkedin.png"></a>
+                    </li>
+                    <li class="nav-bar"><a href="https://twitter.com/?lang=en-ca"><img src="./Images/twitter.png"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy;2022 Sachin Kalsi,Sahil</p>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+@import url(./reset.css);
+/* BODY */
+body {
+    background-image: url(../images/);
+    background-repeat: repeat; 
+}
+body{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*BODY*/
+
+/* LOGIN PAGE */
+#loginpage{
+   
+    width: auto;
+    width: 100%;
+    height: 100%;
+    background: url(../Images/loginbg.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+.loginbox{
+    width: 320px;
+    height: 430px;
+    background-color: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    position: absolute;
+    top: -50px;
+   
+}
+.loginbox > h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+}
+.loginbox input{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"] , input[type="password"]
+{border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+width: 200px;
+height: 38px;
+color: white;
+font-size: 17px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    background-color: lightseagreen;
+    color: white;
+    font-size:18px ;
+}
+.loginbox input[type="submit"]:hover{
+  cursor:pointer;
+  background-color: lightskyblue;
+  color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: white;
+}
+/* LOGIN PAGE */
+
+
+/* NAVIGATION */
+.main-nav{
+    background-color: lightskyblue;
+    margin-bottom: 14px;
+ }
+ 
+ .main-nav > ul {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     overflow: hidden;
+     align-items: center;
+     background-color: lightskyblue;
+     height: 100px;
+     padding-left: 15em;
+     padding-right: 15em;
+ }
+ .main-nav a {
+     display: block;
+     color: white;
+     text-decoration: none;
+    padding: 100px;
+ }
+ 
+ .main-nav ul li a:hover {
+     background-color:darkblue;
+ }
+ /* NAVIGATION */
+
+ /* TEAM */ 
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: aliceblue;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1em; 
+    margin-bottom: 20px;
+    margin-top: 50px; 
+}
+
+.team div{
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: beige;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+/* TEAM */ 
+
+/*INDEX*/
+img{
+    width:300px;
+    height: 300px;
+}
+.imgHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 3em;
+    margin-right: 3em;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.imgHome div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgHome div a{
+    color: black;
+    
+}
+cite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 20px
+}
+.logo div{
+   text-align: center;
+}
+.logo div img{
+    width: 100px;
+    height: 100px;
+}
+.logo div a{
+    color: rgb(0, 0, 0);
+}
+
+.homebuttons{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    margin-left: 80px;
+    background-color: lightskyblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.homebuttons a{
+    text-decoration: none;
+}
+.homebuttons:hover{
+    background-color:#DDDDDD ;
+    color:#DDDDDD;
+    border-color:black;
+}
+.homebuttons:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+
+.greyfont cite a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.greyfont cite strong{
+    color: whitesmoke;
+
+}
+
+
+.block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+}
+.imgHome div{
+    border: 1px solid black;
+    border-radius: 2%;
+}
+/*mens women kids accesories*/
+.buttons{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    margin-left: 80px;
+    background-color: lightskyblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons:hover{
+    background-color:#DDDDDD ;
+    color:#DDDDDD;
+    border-color:black;
+}
+.buttons:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: lightskyblue;
+}
+
+.main-footer > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    height: 100px;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+footer nav ul li img{
+    width: 50px;
+    height: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+/* FOOTER */
